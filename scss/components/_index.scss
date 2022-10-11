@@ -1,0 +1,63 @@
+#hero{
+    background-image: url("../img/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    .background-nav{
+        background-color: #3c1b2e;
+        padding: 15px 5px;
+        .container-fluid{
+            .brand-color{
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+    }
+    .content{
+        width: 100%;
+        height: auto;
+        margin: 120px 0 0 0;
+        padding-left: 24px;
+        padding-right: 24px;
+        @media only screen and (max-width: 768px) {
+            .content {
+                padding: 0px;
+            }
+        }   
+        h1{
+            text-align: center;
+            color: #fff;
+            font-size: 55px;
+        }
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 35px;
+            }
+        } 
+        .content-btn{
+            text-align: center;
+            width: 100%;
+            height: auto;
+            margin: 15px 0 0 0;
+            a{
+                width: 100%;
+                font-size: 19px;
+                text-align: center;
+                text-decoration: none;
+                color: #fff;
+                border: 2px solid #fff;
+                padding: 10px 15px 10px 15px;
+                margin-left: 10px;
+                transition: all .2s ease-in-out;
+
+                &:hover{
+                    background-color: #3c1b2e;
+                    border: 2px solid #3c1b2e;
+                }
+            }
+        }
+    }
+}
+
+

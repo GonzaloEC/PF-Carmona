@@ -1,0 +1,39 @@
+#about{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 0px 30px 30px 30px;
+    .about-title{
+        width: 100%;
+        color: #3c1b2e;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 65px;
+    }
+    .about-description{
+        text-align: center;
+        margin: 55px 20px 20px 20px;
+        p{
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+            letter-spacing: 1px;
+            padding: 10px 10px 0px 10px;
+            margin-bottom: 35px;
+        }
+        img{
+            width: 40%;
+            height: 40%;
+            border: 5px solid #3c1b2e;
+            filter: drop-shadow(0 12px 5px rgb(0, 0, 0, 0.5));
+            @media only screen and (max-width: 768px) {
+                
+                display: none;
+                
+            }
+        }
+    }
+    
+}
+
+
+

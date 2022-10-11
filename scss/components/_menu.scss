@@ -1,0 +1,82 @@
+/* Menu Section */
+#menu{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 0px 10px 30px 10px;
+    .menu-title{
+        font-size: 30px;
+        color: #3c1b2e;
+        text-align: center;
+        padding-top: 65px;
+    }
+    .menu-text{
+        font-size: 16px;
+        color: #000;
+        text-align: center;
+    }
+    .card-container{
+        padding: 20px 10px;
+        flex-wrap: wrap;
+        .card{
+            margin: 25px;
+            flex: 1 1 15rem;
+            border-radius: 4px;
+            background-color: #fff;
+            box-shadow: 0 1rem 2rem rgb(0 0 0 / 10%);
+            cursor: pointer;
+            transition: ease-in-out .2s;
+            &:hover{
+                transform: scale(1.1);
+            }
+            img{
+                height: 60%;
+            }
+        }
+    }
+    .mas-btn{
+        text-align: center;
+        button{
+            font-size: 17px;
+            color: #fff;
+            background-color: #3c1b2e;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px 10px 15px;
+            cursor: pointer;
+            transition: all .3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mas-btn button{
+    font-size: 17px;
+    color: #fff;
+    background-color: #3c1b2e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.mas-btn button:hover{
+    transform: scale(1.1);
+}
+/* Fin menu section */
